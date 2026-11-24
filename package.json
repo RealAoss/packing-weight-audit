@@ -1,0 +1,15 @@
+{
+  "name": "packing-weight-audit",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Compare packed items and quantities against a baggage weight allowance.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
